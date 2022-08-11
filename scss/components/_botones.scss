@@ -1,0 +1,41 @@
+@import "../base/variables";
+
+
+.botones{
+    margin: 40px 20px 40px 0px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    list-style: none; 
+    padding: 10px 10px 10px 10px;
+    background-color: $color-negro;
+    width: 100vw;
+    div{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            font-weight: 700px;
+            font-size: 20px;
+            background-color: $color-negro;
+            padding: 5px;
+            color: $color-blanco;
+            border-radius: 5px;
+            margin: 20px;
+            text-align: center;
+        }
+    }
+
+}
+
+
+.boton-fixed img{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}

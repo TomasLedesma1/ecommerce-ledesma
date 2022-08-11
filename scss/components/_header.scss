@@ -1,0 +1,40 @@
+@import "../base/variables";
+
+header{
+    position: fixed;
+    z-index: 10;
+    nav{
+        padding: 20px;
+        color: $color-blanco;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            display: flex;
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                    color: $color-blanco;
+                    font-size: 18px;
+                    font-weight: 700;
+                    margin: 29px;
+                    transition: 2s;
+                    &:hover{
+                        text-decoration: line-through;
+                        color: $color-blanco;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
