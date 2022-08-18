@@ -172,3 +172,345 @@
         }
     }
 }
+
+
+/*---------PRODUCTOS------*/
+
+.banner-productos{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/banner.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fafafa;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 80;
+    letter-spacing: 7px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.botones{
+    margin: 40px 20px 40px 0px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    list-style: none; 
+    padding: 10px 10px 10px 10px;
+    background-color: #020202;
+    width: 100vw;
+    div{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            font-weight: 700px;
+            font-size: 20px;
+            background-color: #020202;
+            padding: 5px;
+            color: rgb(255, 251, 251);
+            border-radius: 5px;
+            margin: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.productos{
+    font-size: 20px;
+    font-weight: 60;
+    color: #080c0c;
+    font-style: inherit;
+    background-image: linear-gradient(to bottom , white , black);
+    margin-top: 20px;
+h2{
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:15px;
+    div{
+        width: 250px;
+        height: 350px;
+        border: 1px solid gainsboro;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #f8fafa;
+        display: inline-block;
+        margin-left: 25px;
+        transition: 2s;
+        &:hover{
+            transform: scale(1.1);
+        }
+        h3{
+            margin: 15px;
+        }
+        a{
+            text-decoration: none;
+            background-color: #050505;
+            padding: 5px;
+            color: white;
+            border-radius: 5px;
+        }
+        img{
+            width: 230px;
+            height: 230px;
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            border-top-left-radius: 15px;
+            margin-top: 10px;
+        }
+    }
+}
+}
+
+.boton-fixed img{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+
+
+/*---------NOVEDADES------*/
+
+.banner-novedades{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../img/banner.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 80;
+    letter-spacing: 7px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.p-novedades{
+    font-size: 15px;
+    font-weight: 50;
+    font-style: normal;
+    font-family: sans-serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botones{
+    margin: 40px 20px 40px 0px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    list-style: none; 
+    padding: 10px 10px 10px 10px;
+    background-color: #020202;
+    width: 100vw;
+    div{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            font-weight: 700px;
+            font-size: 20px;
+            background-color: #020202;
+            padding: 5px;
+            color: rgb(255, 251, 251);
+            border-radius: 5px;
+            margin: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.destacado{
+    background-image: linear-gradient(to bottom , white , black);
+    h2{
+        font-size: 30px;
+        font-weight: 50;
+        font-style: unset;
+        font-family: sans-serif;
+        color: #050505;
+        text-align: left;
+        margin: 30px 0px 30px 30px;
+    }
+    div{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        div{
+            width: 300px;
+            height: 400px;
+            margin-bottom: 30px;
+            text-align: center;
+            border-radius: 15px;
+            display: inline-block;
+            margin-left: 25px;
+            img{
+                width: 300px;
+                height: 300px;
+                border-bottom-left-radius: 15px;
+                border-top-right-radius: 15px;
+                margin-bottom: 30px;
+            }
+            a{
+                text-decoration: none;
+                text-decoration: none;
+                background-color: #020202;
+                padding: 5px;
+                color: white;
+                border-radius: 10px;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+
+/*---------CONTACTO------*/
+
+.contacto{
+
+    div{
+        width: 450px;
+        margin: auto;
+        background: rgba(236, 231, 231, 0.4);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 7px;
+        input{
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 7px;
+            box-sizing: border-box;
+            font-size: 17px;
+            border: none;
+        }
+        textarea{
+            min-height: 100%;
+            max-height: 200px;
+            max-width: 100%;
+        }
+    }
+    h2{
+        color: rgb(7, 7, 7);
+        text-align: center;
+        margin: 0;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-family: monospace;
+        border: solid 2px;
+    }
+}
+
+
+#boton{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.alerta{
+    margin: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.616);
+    color: black;
+    text-align: center;  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*---------ACERCA DE NOSOTROS------*/
+
+.acerca{
+    font-size: 15px;
+    font-weight: 50;
+    font-style: normal;
+    color: #000000;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom , white , black);
+    div{
+        font-size: 15px;
+        font-weight: 50;
+        font-family:monospace;
+        font-style: normal;
+        color: #070707;
+    }
+}
+
+
+.acerca-title2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top , white , black);
+    div{
+        font-size: 15px;
+        font-weight: 50;
+        font-family:monospace;
+        font-style: normal;
+        color: #070707;
+    }
+}
+
+
+.acerca-title3{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom , white , black);
+}
