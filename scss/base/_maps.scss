@@ -1,0 +1,26 @@
+
+
+$boton:(
+
+    color: white,
+    border: 5px,
+    decoracion-texto: none,
+    bg-color: black,
+    text-aling:center,
+    estilo-lista: none,
+    ancho: 100vw,
+    margen: 40px 20px 40px 0px,
+
+);
+
+.botones{
+    color: map-get($boton, color);
+    border-radius: map-get($boton, border);
+    text-decoration: map-get($boton, decoracion-texto);
+    background-color: map-get($boton, bg-color);
+    text-align: map-get($boton, center );
+    list-style: map-get($boton, estilo-lista );
+    width: map-get($boton, ancho );
+    margin: map-get($boton , margen );
+
+}

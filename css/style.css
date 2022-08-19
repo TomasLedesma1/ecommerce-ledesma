@@ -57,6 +57,28 @@ header {
   background-color: #000000; }
 
 .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.productos.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  transition-duration: 10s;
+  transition-property: width; }
+
+.banner {
+  flex-direction: column;
+  width: 100%;
+  height: 100vh; }
+
+.banner {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -495,6 +517,15 @@ header {
   background-image: linear-gradient(to bottom, white, black); }
 
 .botones {
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: black;
+  list-style: none;
+  width: 100vw;
+  margin: 40px 20px 40px 0px; }
+
+.botones {
   margin: 40px 20px 40px 0px;
   text-align: center;
   text-decoration: none;
@@ -705,3 +736,34 @@ body {
 @media screen and (max-width: 1000px) {
   .ubicacion {
     font-size: 10px; } }
+
+.botones {
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: black;
+  list-style: none;
+  width: 100vw;
+  margin: 40px 20px 40px 0px; }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.productos.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  transition-duration: 10s;
+  transition-property: width; }
+
+.banner {
+  flex-direction: column;
+  width: 100%;
+  height: 100vh; }

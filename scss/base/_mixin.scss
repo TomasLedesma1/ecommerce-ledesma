@@ -1,0 +1,11 @@
+
+
+@mixin  flex($column, $width, $height){
+    flex-direction: $column;
+    width: $width;
+    height: $height;
+} 
+
+.banner{
+    @include flex (column, 100%, 100vh);
+}
