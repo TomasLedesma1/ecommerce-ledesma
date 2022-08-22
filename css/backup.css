@@ -249,7 +249,8 @@ body{
     font-weight: 50;
     font-family:monospace;
     font-style: normal;
-    color: #070707;
+    color: white;
+    border-bottom: 2px solid;
 }
 
 .acerca-title2{
@@ -266,7 +267,8 @@ body{
     font-weight: 50;
     font-family:monospace;
     font-style: normal;
-    color: #070707;
+    color: white;
+    border-bottom: 2px solid;
 }
 
 .acerca-title3{
@@ -404,6 +406,11 @@ body{
     border-radius: 15px;
     display: inline-block;
     margin-left: 25px;
+    transition: 2s;
+}
+
+.destacado div div:hover{
+    transform: scale(1.1);
 }
 
 .destacado div div img{
